@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="pokedex">
+            <div class="card-pokemon">
+                <div class="card-top">
+                    <div class="detalhe">
+                        <h3><span id="nome-pokemon">--</span></h3>
+                        <span id="id-poke">--</span>
+                    </div>
+                    <span id="type">--</span>
+                    <div class="card-image">
+                        <img id="img_pokemon">
+                    </div>
+                </div>  
+            </div>
+
+            <div class="card-info">
+                <div id="status-pokemon">
+                    <h3>Status</h3>
+                    <ul class="lista-st">
+                        <li class="status">HP: <span class="valor_status">--</span></li> 
+                        <li class="status">Ataque: <span class="valor_status">--</span></li> 
+                        <li class="status">Defesa: <span class="valor_status">--</span></li> 
+                        <li class="status">Ataque Especial: <span class="valor_status">--</span></li> 
+                        <li class="status">Defesa Especial: <span class="valor_status">--</span></li> 
+                        <li class="status">Velocidade: <span class="valor_status">--</span></li> 
+                    </ul>
+                </div>
+
+                <div id="info-pokemon">
+                    <h3>Informações Básicas</h3>
+                    <ul>
+                        <li>Experiência Base: <span id="exp-base">--</span></li>
+                        <li>Peso: <span id="value-weight">--</span></li>
+                        <li>Altura: <span id="value-height">--</span></li>
+                    </ul>
+                </div>
+            </div> <!--card-info-->
+
+        </div>  <!--pokedex-->
+
+        <nav id="lista-pokemon">
+            <ul id="pokemons"></ul>
+        </nav>
+
+    </main>  <!--container-->
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
