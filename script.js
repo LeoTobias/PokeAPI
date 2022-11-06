@@ -87,8 +87,8 @@ function statusPoke(id){
         img.src                     = retorno.sprites.front_default;
         nome_pokemon.innerText      = retorno.name.charAt(0).toUpperCase() + retorno.name.slice(1);
         tipo_pokemon.innerText      = type;
-        peso_pokemon.innerText      = retorno.weight + 'kg';
-        altura_pokemon.innerText    = retorno.height + 'cm';
+        peso_pokemon.innerText      = retorno.weight + 'hg';
+        altura_pokemon.innerText    = retorno.height + 'dm';
         exp_pokemon.innerText       = retorno.base_experience;
     }
-}
+} 
